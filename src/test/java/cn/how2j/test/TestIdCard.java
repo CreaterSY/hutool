@@ -25,7 +25,7 @@ public class TestIdCard {
 	public void test1() {
 		String id15 = "370802880102061";
 		p3("15位身份证号码",id15);
-		p3("判断是否有效",IdcardUtil.isValidCard(id15));
+		p3("判断号码是否有效",IdcardUtil.isValidCard(id15));
 		p3("转换为18位身份证号码",IdcardUtil.convert15To18(id15));
 
 		
