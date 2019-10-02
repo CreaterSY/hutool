@@ -22,7 +22,7 @@ import cn.hutool.core.util.StrUtil;
 public class TestArray {
 
 	@Test
-	@Comment("为空判断")
+	@Comment("为空的判断")
 	public void test1(){
 		int [] a = null;
 		int [] b = new int[5];
